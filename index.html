@@ -2,63 +2,97 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+        <script src="script.js"></script>
     </head>
     <body>
-        <div>
+        <div id="top">
             <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"/>
             <input type="search" value="검색"/>
+            <div>
+                <i class="fas fa-border-all"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-paper-plane"></i>
+            </div>
         </div>
         <div id="profile">
-            <img src="image/404.jpg" width="50px"/>
-            <div>
-             <h2>half_bottle</h2>
-             <button>프로필 편집</button>
+            <div id="profile_pic">
+                <img class="circle_pic" src="image/404.jpg"/>
+            </div>
+            <div id="profile_info">
+                <div id="id">
+                    park.__fe <i class="fas fa-cog"></i>
+                </div>
+                <button>프로필 편집</button>
             </div>
         </div>
         <div>
         <p>
             <strong>
-                박병현 (Byunghtun Ban)<br/>
+                박철희<br/>
             </strong>
-            작가
+             연습
         </p>
         <p>
-            <a href="https://needleworm.github.io">
-                needleworm.github.io
+            <a href="https://ironshine.github.io">
+                ironshine.github.io
             </a>
         </p>
         </div>
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
-                <div><img src="image/aaa.jpg" height="35px"/></div>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/aaa.jpg"/></div>
                     <div>❤</div>
             </div>
             <div class="highlight">
-                <div><img src="image/bbb.png" height="35px"/></div>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/bbb.png"/>
+                </div>
                     <div>🦔</div>
             </div>
         </div>
-        <div>
-        <p>
-        게시물<br/>
-        팔로워<br/>
-        팔로우<br/>
-        133<br/>
-        408<br/>
-        189
-        </p>
+        <div id="stat_bar">
+            <div class="stat">
+                게시물<br/>
+                5
+            </div>
+            <div class="stat">
+                팔로워<br/>
+                50
+            </div>
+            <div class="stat">
+                팔로우<br/>
+                55
+            </div>
         </div>
-        <div>아이콘</div>
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fas fa-border-all"></i>
+            </div>
+            <div>
+                <i class="fas fa-bookmark"></i>
+            </div>
+            <div>
+                <i class="fas fa-tag"></i>
+            </div>
+        </div>
         <div>
-            <img src="image/thumbnails/bmx1.jpg" width="32%"/>
-            <img src="image/thumbnails/bmx2.jpg" width="32%"/>
-            <img src="image/thumbnails/bmx3.jpg" width="32%"/>
-            <img src="image/thumbnails/bmx4.jpg" width="32%"/>
-            <img src="image/thumbnails/bmx5.jpg" width="32%"/>
-            <img src="image/thumbnails/bmx6.jpg" width="32%"/>
-            <img src="image/thumbnails/bmx7.jpg" width="32%"/>
-            <img src="image/thumbnails/bmx8.jpg" width="32%"/>
-            <img src="image/thumbnails/bmx9.jpg" width="32%"/>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/bmx1.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/bmx2.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/bmx3.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/bmx4.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/bmx5.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/bmx6.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/bmx7.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/bmx8.jpg" class="thumbnail"/>
+                <img src="image/thumbnails/bmx9.jpg" class="thumbnail"/>
+            </div>        
         </div>
     </body>
 </html>
